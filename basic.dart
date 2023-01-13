@@ -220,17 +220,17 @@ void main(){
 
   ///============ Map Iterating =============
 
-  var info = new Map();
+  // var info = new Map();
 
-  info.addAll({'name': 'Md Nazmul Hasan','age': 25,'address': 'Narayankandi'});
+  // info.addAll({'name': 'Md Nazmul Hasan','age': 25,'address': 'Narayankandi'});
 
   // print(info['name']);
 
-  info.forEach((key, value) {
+  // info.forEach((key, value) {
     // print(key);
     // print(value);
-    print('${key}: ${value}');
-  });
+    // print('${key}: ${value}');
+  // });
 
 
 
