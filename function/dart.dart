@@ -4,7 +4,8 @@ void main(){
   // print(stringFunction());
   // print(integerFunction());
   // print(integerFunctionWithParameter(20, 30));
-  print(listFunction());
+  // print(listFunction());
+  print(optionalNamedParameter('Nazmul Hasan','Mohammad'));
 }
 
 void test(){
@@ -23,6 +24,10 @@ int integerFunction(){
 
 int integerFunctionWithParameter(int a, int b){
   return a+b;
+}
+
+String optionalNamedParameter(String name,[String prefix = 'Md']){
+  return '$prefix $name';
 }
 
 List listFunction(){
