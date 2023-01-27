@@ -10,7 +10,7 @@ class Children extends Parent{
 
   @override
   void info(){
-    print('Overriding parent fuction');
+    print('Overriding parent function');
   }
 
   void newFunction(){
